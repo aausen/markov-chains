@@ -10,7 +10,8 @@ def open_and_read_file(file_path):
     the file's contents as one string of text.
     """
 
-    # your code goes here
+    contents = open('green-eggs.txt').read()
+    
 
     return 'Contents of your file as one long string'
 
@@ -42,7 +43,7 @@ def make_chains(text_string):
 
     chains = {}
 
-    # your code goes here
+    words = contents.split()
 
     return chains
 
